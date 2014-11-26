@@ -1,3 +1,10 @@
 [user]
 	name = Bob Wang
 	email = mualucky@gmail.com
+[init]
+	templatedir = ~/.git_template
+[alias]
+	ctags = !.git/hooks/ctags
+	co = checkout
+	br = branch
+	st = status
