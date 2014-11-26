@@ -8,3 +8,4 @@
 	co = checkout
 	br = branch
 	st = status
+	cl = clone

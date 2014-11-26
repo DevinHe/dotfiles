@@ -62,7 +62,7 @@ alias hide='defaults write com.apple.finder AppleShowAllFiles No && killall Find
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git autojump ruby osx rails rvm gem brew bundler)
+plugins=(autojump ruby osx rails rvm gem brew bundler)
 
 source $ZSH/oh-my-zsh.sh
 
