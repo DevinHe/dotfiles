@@ -9,3 +9,4 @@
 	br = branch
 	st = status
 	cl = clone
+	cm = commit
