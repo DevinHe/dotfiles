@@ -26,6 +26,8 @@ Plugin 'jiangmiao/auto-pairs'
 Plugin 'vim-scripts/Visual-Mark'
 Plugin 'vim-scripts/taglist.vim'
 Plugin 'dyng/ctrlsf.vim'
+Plugin 'maksimr/vim-jsbeautify'
+Plugin 'einars/js-beautify'
 "------------------------------
 " plugin from http://vim-scripts.org/vim/scripts.html
 "------------------------------
