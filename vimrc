@@ -19,7 +19,8 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
-Plugin 'msanders/snipmate.vim'
+Plugin 'SirVer/ultisnips'
+Plugin 'honza/vim-snippets'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'godlygeek/tabular'
 Plugin 'jiangmiao/auto-pairs'
@@ -125,6 +126,9 @@ nnoremap <F1> :NERDTreeToggle<CR>
 " ctrlsf
 set grepprg=ag " Use ag instead of grep
 nnoremap<C-F> :CtrlSF<space>
+
+" ultisnips
+let g:UltiSnipsExpandTrigger="<tab>"
 "---------- End of setting plugin ---------- 
 
 "---------- Setting for project ----------
