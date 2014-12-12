@@ -10,3 +10,4 @@
 	st = status
 	cl = clone
 	cm = commit
+  pu = pull
