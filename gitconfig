@@ -11,3 +11,5 @@
 	cl = clone
 	cm = commit
   pu = pull
+[core]
+	editor = /usr/local/bin/vim
