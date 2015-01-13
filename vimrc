@@ -131,6 +131,9 @@ nnoremap<C-F> :CtrlSF<space>
 
 " ultisnips
 let g:UltiSnipsExpandTrigger="<tab>"
+
+" YouCompleteMe
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 "---------- End of setting plugin ---------- 
 
 "---------- Setting for project ----------
@@ -140,5 +143,3 @@ let g:UltiSnipsExpandTrigger="<tab>"
 au BufEnter ~/tophold/tophold-web/* setlocal tags+=~/tophold/tophold-web/.git/tags
 au BufEnter ~/tophold/tophold-bjobs/* setlocal tags+=~/tophold/tophold-bjobs/.git/tags
 au BufEnter ~/tophold/tophold-engine/* setlocal tags+=~/tophold/tophold-engine/.git/tags
-
-let g:ycm_path_to_python_interpreter = '/usr/bin/python'
