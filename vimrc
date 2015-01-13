@@ -29,6 +29,8 @@ Plugin 'vim-scripts/taglist.vim'
 Plugin 'dyng/ctrlsf.vim'
 Plugin 'maksimr/vim-jsbeautify'
 Plugin 'einars/js-beautify'
+Plugin 'jshint/jshint'
+Plugin 'Valloric/YouCompleteMe'
 "------------------------------
 " plugin from http://vim-scripts.org/vim/scripts.html
 "------------------------------
@@ -138,3 +140,5 @@ let g:UltiSnipsExpandTrigger="<tab>"
 au BufEnter ~/tophold/tophold-web/* setlocal tags+=~/tophold/tophold-web/.git/tags
 au BufEnter ~/tophold/tophold-bjobs/* setlocal tags+=~/tophold/tophold-bjobs/.git/tags
 au BufEnter ~/tophold/tophold-engine/* setlocal tags+=~/tophold/tophold-engine/.git/tags
+
+let g:ycm_path_to_python_interpreter = '/usr/bin/python'
