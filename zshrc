@@ -2,6 +2,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export DYLD_LIBRARY_PATH=/opt/oracle/instantclient_11_2
 export ORACLE_HOME=/opt/oracle/instantclient_11_2
+export FLV_HOME=$HOME/FixLogViewer
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/

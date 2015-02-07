@@ -19,6 +19,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
 Plugin 'Lokaltog/vim-powerline'
@@ -31,6 +32,7 @@ Plugin 'maksimr/vim-jsbeautify'
 Plugin 'einars/js-beautify'
 Plugin 'jshint/jshint'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'yonchu/accelerated-smooth-scroll'
 "------------------------------
 " plugin from http://vim-scripts.org/vim/scripts.html
 "------------------------------
