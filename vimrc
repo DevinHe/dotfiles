@@ -129,7 +129,7 @@ nnoremap <F1> :NERDTreeToggle<CR>
 
 " ctrlsf
 set grepprg=ag " Use ag instead of grep
-nnoremap<C-F> :CtrlSF<space>
+nnoremap<F3> :CtrlSF<space>
 
 " ultisnips
 let g:UltiSnipsExpandTrigger="<tab>"
