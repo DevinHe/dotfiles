@@ -2,7 +2,10 @@
 export ZSH=$HOME/.oh-my-zsh
 export DYLD_LIBRARY_PATH=/opt/oracle/instantclient_11_2
 export ORACLE_HOME=/opt/oracle/instantclient_11_2
+# FixLogViewer
 export FLV_HOME=$HOME/FixLogViewer
+# node global npm to NODE_PATH
+export NODE_PATH=/usr/local/lib/node_modules
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/

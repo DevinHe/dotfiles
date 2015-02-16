@@ -33,6 +33,7 @@ Plugin 'einars/js-beautify'
 Plugin 'jshint/jshint'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'yonchu/accelerated-smooth-scroll'
+Plugin 'kchmck/vim-coffee-script'
 "------------------------------
 " plugin from http://vim-scripts.org/vim/scripts.html
 "------------------------------
