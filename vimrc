@@ -34,6 +34,7 @@ Plugin 'jshint/jshint'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'yonchu/accelerated-smooth-scroll'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'scrooloose/syntastic'
 "------------------------------
 " plugin from http://vim-scripts.org/vim/scripts.html
 "------------------------------
@@ -139,6 +140,16 @@ let g:UltiSnipsExpandTrigger="<tab>"
 let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+
+" syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 "---------- End of setting plugin ---------- 
 
 "---------- Setting for project ----------
