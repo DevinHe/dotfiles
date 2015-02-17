@@ -141,6 +141,10 @@ let g:ycm_path_to_python_interpreter = '/usr/bin/python'
 let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
 let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
 
+" vim-coffee-script
+vmap <leader>c <esc>:'<,'>:CoffeeCompile vert<CR>
+map <leader>c :CoffeeCompile vert<CR>
+
 " syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
